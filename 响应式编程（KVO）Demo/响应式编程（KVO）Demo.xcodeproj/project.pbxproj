@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C351D271D94BBEB00336116 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D261D94BBEB00336116 /* main.m */; };
+		6C351D2A1D94BBEB00336116 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D291D94BBEB00336116 /* AppDelegate.m */; };
+		6C351D2D1D94BBEB00336116 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D2C1D94BBEB00336116 /* ViewController.m */; };
+		6C351D301D94BBEB00336116 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C351D2E1D94BBEB00336116 /* Main.storyboard */; };
+		6C351D321D94BBEB00336116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C351D311D94BBEB00336116 /* Assets.xcassets */; };
+		6C351D351D94BBEB00336116 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C351D331D94BBEB00336116 /* LaunchScreen.storyboard */; };
+		6C351D401D94BBEB00336116 /* ______KVO_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D3F1D94BBEB00336116 /* ______KVO_DemoTests.m */; };
+		6C351D4B1D94BBEB00336116 /* ______KVO_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D4A1D94BBEB00336116 /* ______KVO_DemoUITests.m */; };
+		6C351D5A1D94BBFA00336116 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D591D94BBFA00336116 /* Person.m */; };
+		6C351D5D1D94BD9C00336116 /* NSObject+EMObserverRegistration.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D5C1D94BD9C00336116 /* NSObject+EMObserverRegistration.m */; };
+		6C351D601D94BF2300336116 /* EMObserve_Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C351D5F1D94BF2300336116 /* EMObserve_Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C351D3C1D94BBEB00336116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C351D1A1D94BBEB00336116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C351D211D94BBEB00336116;
+			remoteInfo = "响应式编程（KVO）Demo";
+		};
+		6C351D471D94BBEB00336116 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C351D1A1D94BBEB00336116 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C351D211D94BBEB00336116;
+			remoteInfo = "响应式编程（KVO）Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C351D221D94BBEB00336116 /* 响应式编程（KVO）Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "响应式编程（KVO）Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C351D261D94BBEB00336116 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C351D281D94BBEB00336116 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C351D291D94BBEB00336116 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C351D2B1D94BBEB00336116 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C351D2C1D94BBEB00336116 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C351D2F1D94BBEB00336116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C351D311D94BBEB00336116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C351D341D94BBEB00336116 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C351D361D94BBEB00336116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C351D3B1D94BBEB00336116 /* 响应式编程（KVO）DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "响应式编程（KVO）DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C351D3F1D94BBEB00336116 /* ______KVO_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______KVO_DemoTests.m"; sourceTree = "<group>"; };
+		6C351D411D94BBEB00336116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C351D461D94BBEB00336116 /* 响应式编程（KVO）DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "响应式编程（KVO）DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C351D4A1D94BBEB00336116 /* ______KVO_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "______KVO_DemoUITests.m"; sourceTree = "<group>"; };
+		6C351D4C1D94BBEB00336116 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C351D581D94BBF900336116 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		6C351D591D94BBFA00336116 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		6C351D5B1D94BD9C00336116 /* NSObject+EMObserverRegistration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EMObserverRegistration.h"; sourceTree = "<group>"; };
+		6C351D5C1D94BD9C00336116 /* NSObject+EMObserverRegistration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EMObserverRegistration.m"; sourceTree = "<group>"; };
+		6C351D5E1D94BF2300336116 /* EMObserve_Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMObserve_Person.h; sourceTree = "<group>"; };
+		6C351D5F1D94BF2300336116 /* EMObserve_Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMObserve_Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C351D1F1D94BBEB00336116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C351D381D94BBEB00336116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C351D431D94BBEB00336116 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C351D191D94BBEB00336116 = {
+			isa = PBXGroup;
+			children = (
+				6C351D241D94BBEB00336116 /* 响应式编程（KVO）Demo */,
+				6C351D3E1D94BBEB00336116 /* 响应式编程（KVO）DemoTests */,
+				6C351D491D94BBEB00336116 /* 响应式编程（KVO）DemoUITests */,
+				6C351D231D94BBEB00336116 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6C351D231D94BBEB00336116 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C351D221D94BBEB00336116 /* 响应式编程（KVO）Demo.app */,
+				6C351D3B1D94BBEB00336116 /* 响应式编程（KVO）DemoTests.xctest */,
+				6C351D461D94BBEB00336116 /* 响应式编程（KVO）DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C351D241D94BBEB00336116 /* 响应式编程（KVO）Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6C351D281D94BBEB00336116 /* AppDelegate.h */,
+				6C351D291D94BBEB00336116 /* AppDelegate.m */,
+				6C351D2B1D94BBEB00336116 /* ViewController.h */,
+				6C351D2C1D94BBEB00336116 /* ViewController.m */,
+				6C351D581D94BBF900336116 /* Person.h */,
+				6C351D591D94BBFA00336116 /* Person.m */,
+				6C351D5B1D94BD9C00336116 /* NSObject+EMObserverRegistration.h */,
+				6C351D5C1D94BD9C00336116 /* NSObject+EMObserverRegistration.m */,
+				6C351D5E1D94BF2300336116 /* EMObserve_Person.h */,
+				6C351D5F1D94BF2300336116 /* EMObserve_Person.m */,
+				6C351D2E1D94BBEB00336116 /* Main.storyboard */,
+				6C351D311D94BBEB00336116 /* Assets.xcassets */,
+				6C351D331D94BBEB00336116 /* LaunchScreen.storyboard */,
+				6C351D361D94BBEB00336116 /* Info.plist */,
+				6C351D251D94BBEB00336116 /* Supporting Files */,
+			);
+			path = "响应式编程（KVO）Demo";
+			sourceTree = "<group>";
+		};
+		6C351D251D94BBEB00336116 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C351D261D94BBEB00336116 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C351D3E1D94BBEB00336116 /* 响应式编程（KVO）DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C351D3F1D94BBEB00336116 /* ______KVO_DemoTests.m */,
+				6C351D411D94BBEB00336116 /* Info.plist */,
+			);
+			path = "响应式编程（KVO）DemoTests";
+			sourceTree = "<group>";
+		};
+		6C351D491D94BBEB00336116 /* 响应式编程（KVO）DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C351D4A1D94BBEB00336116 /* ______KVO_DemoUITests.m */,
+				6C351D4C1D94BBEB00336116 /* Info.plist */,
+			);
+			path = "响应式编程（KVO）DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C351D211D94BBEB00336116 /* 响应式编程（KVO）Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C351D4F1D94BBEB00336116 /* Build configuration list for PBXNativeTarget "响应式编程（KVO）Demo" */;
+			buildPhases = (
+				6C351D1E1D94BBEB00336116 /* Sources */,
+				6C351D1F1D94BBEB00336116 /* Frameworks */,
+				6C351D201D94BBEB00336116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "响应式编程（KVO）Demo";
+			productName = "响应式编程（KVO）Demo";
+			productReference = 6C351D221D94BBEB00336116 /* 响应式编程（KVO）Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C351D3A1D94BBEB00336116 /* 响应式编程（KVO）DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C351D521D94BBEB00336116 /* Build configuration list for PBXNativeTarget "响应式编程（KVO）DemoTests" */;
+			buildPhases = (
+				6C351D371D94BBEB00336116 /* Sources */,
+				6C351D381D94BBEB00336116 /* Frameworks */,
+				6C351D391D94BBEB00336116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C351D3D1D94BBEB00336116 /* PBXTargetDependency */,
+			);
+			name = "响应式编程（KVO）DemoTests";
+			productName = "响应式编程（KVO）DemoTests";
+			productReference = 6C351D3B1D94BBEB00336116 /* 响应式编程（KVO）DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C351D451D94BBEB00336116 /* 响应式编程（KVO）DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C351D551D94BBEB00336116 /* Build configuration list for PBXNativeTarget "响应式编程（KVO）DemoUITests" */;
+			buildPhases = (
+				6C351D421D94BBEB00336116 /* Sources */,
+				6C351D431D94BBEB00336116 /* Frameworks */,
+				6C351D441D94BBEB00336116 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C351D481D94BBEB00336116 /* PBXTargetDependency */,
+			);
+			name = "响应式编程（KVO）DemoUITests";
+			productName = "响应式编程（KVO）DemoUITests";
+			productReference = 6C351D461D94BBEB00336116 /* 响应式编程（KVO）DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C351D1A1D94BBEB00336116 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Lemon;
+				TargetAttributes = {
+					6C351D211D94BBEB00336116 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZY76F7V7YM;
+						ProvisioningStyle = Automatic;
+					};
+					6C351D3A1D94BBEB00336116 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZY76F7V7YM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C351D211D94BBEB00336116;
+					};
+					6C351D451D94BBEB00336116 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = ZY76F7V7YM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6C351D211D94BBEB00336116;
+					};
+				};
+			};
+			buildConfigurationList = 6C351D1D1D94BBEB00336116 /* Build configuration list for PBXProject "响应式编程（KVO）Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C351D191D94BBEB00336116;
+			productRefGroup = 6C351D231D94BBEB00336116 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C351D211D94BBEB00336116 /* 响应式编程（KVO）Demo */,
+				6C351D3A1D94BBEB00336116 /* 响应式编程（KVO）DemoTests */,
+				6C351D451D94BBEB00336116 /* 响应式编程（KVO）DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C351D201D94BBEB00336116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C351D351D94BBEB00336116 /* LaunchScreen.storyboard in Resources */,
+				6C351D321D94BBEB00336116 /* Assets.xcassets in Resources */,
+				6C351D301D94BBEB00336116 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C351D391D94BBEB00336116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C351D441D94BBEB00336116 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C351D1E1D94BBEB00336116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C351D5D1D94BD9C00336116 /* NSObject+EMObserverRegistration.m in Sources */,
+				6C351D601D94BF2300336116 /* EMObserve_Person.m in Sources */,
+				6C351D2D1D94BBEB00336116 /* ViewController.m in Sources */,
+				6C351D2A1D94BBEB00336116 /* AppDelegate.m in Sources */,
+				6C351D5A1D94BBFA00336116 /* Person.m in Sources */,
+				6C351D271D94BBEB00336116 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C351D371D94BBEB00336116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C351D401D94BBEB00336116 /* ______KVO_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C351D421D94BBEB00336116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C351D4B1D94BBEB00336116 /* ______KVO_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C351D3D1D94BBEB00336116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C351D211D94BBEB00336116 /* 响应式编程（KVO）Demo */;
+			targetProxy = 6C351D3C1D94BBEB00336116 /* PBXContainerItemProxy */;
+		};
+		6C351D481D94BBEB00336116 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C351D211D94BBEB00336116 /* 响应式编程（KVO）Demo */;
+			targetProxy = 6C351D471D94BBEB00336116 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C351D2E1D94BBEB00336116 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C351D2F1D94BBEB00336116 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C351D331D94BBEB00336116 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C351D341D94BBEB00336116 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C351D4D1D94BBEB00336116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C351D4E1D94BBEB00336116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C351D501D94BBEB00336116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY76F7V7YM;
+				INFOPLIST_FILE = "响应式编程（KVO）Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eastMoney.------KVO-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C351D511D94BBEB00336116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZY76F7V7YM;
+				INFOPLIST_FILE = "响应式编程（KVO）Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eastMoney.------KVO-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C351D531D94BBEB00336116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZY76F7V7YM;
+				INFOPLIST_FILE = "响应式编程（KVO）DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eastMoney.------KVO-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/响应式编程（KVO）Demo.app/响应式编程（KVO）Demo";
+			};
+			name = Debug;
+		};
+		6C351D541D94BBEB00336116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZY76F7V7YM;
+				INFOPLIST_FILE = "响应式编程（KVO）DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eastMoney.------KVO-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/响应式编程（KVO）Demo.app/响应式编程（KVO）Demo";
+			};
+			name = Release;
+		};
+		6C351D561D94BBEB00336116 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZY76F7V7YM;
+				INFOPLIST_FILE = "响应式编程（KVO）DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eastMoney.------KVO-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "响应式编程（KVO）Demo";
+			};
+			name = Debug;
+		};
+		6C351D571D94BBEB00336116 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZY76F7V7YM;
+				INFOPLIST_FILE = "响应式编程（KVO）DemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eastMoney.------KVO-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "响应式编程（KVO）Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C351D1D1D94BBEB00336116 /* Build configuration list for PBXProject "响应式编程（KVO）Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C351D4D1D94BBEB00336116 /* Debug */,
+				6C351D4E1D94BBEB00336116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C351D4F1D94BBEB00336116 /* Build configuration list for PBXNativeTarget "响应式编程（KVO）Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C351D501D94BBEB00336116 /* Debug */,
+				6C351D511D94BBEB00336116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C351D521D94BBEB00336116 /* Build configuration list for PBXNativeTarget "响应式编程（KVO）DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C351D531D94BBEB00336116 /* Debug */,
+				6C351D541D94BBEB00336116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6C351D551D94BBEB00336116 /* Build configuration list for PBXNativeTarget "响应式编程（KVO）DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C351D561D94BBEB00336116 /* Debug */,
+				6C351D571D94BBEB00336116 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C351D1A1D94BBEB00336116 /* Project object */;
+}
