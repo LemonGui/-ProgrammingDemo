@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Person.h"
 #import "NSObject+EMObserverRegistration.h"
+#import <objc/runtime.h>
 @interface ViewController ()
 @property (nonatomic,strong) Person * p;
 
@@ -22,9 +23,14 @@
     Person * p = [Person new];
     p.age = 20;
     _p = p;
+    
+    NSLog(@"%@",object_getClass(p));
+   
 //    [p addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
     [p em_addObserver:self forKeyPath:@"age" options:NSKeyValueObservingOptionNew context:nil];
     //NSKVONotifying_Person
+   
+    NSLog(@"%@",object_getClass(p));
 }
 
 
